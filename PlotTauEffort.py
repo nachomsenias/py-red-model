@@ -54,5 +54,5 @@ for max_dots in max_values:
     plt.scatter(x=max_dots[1], y=max_dots[0], marker='x')
 
 plt.title('Effort chart with theta=' + str(theta) + ', a=' + str(a) + ', and sample=' + str(sample))
-plt.savefig('.\\taueffort_' + str(theta) + '_' + str(a) + '_' + str(sample) + '.png')
+plt.savefig('.\\tau_effort\\' + str(theta) + '_' + str(a) + '_' + str(sample) + '.png')
 plt.close(fig)
